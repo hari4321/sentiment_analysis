@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+        <div class="container">
+        <h1> Sentiment Analysis</h1>
+        <br>
+        <p>Copy paste the text here to find the Sentiment of the Text</p>
+        <br>
+        <form action="result" method="POST">
+        <textarea id="area" name="area" rows="10" cols="80"></textarea>
+        <br><br>
+        <div class="button"><input type = "submit" value="Analyse!"></div>
+        </form>
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sentiment Analysis Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+	<h1> Sentiment Analysis Result</h1><br>
+
+	<p> {{predict}}</p>
+    <br>
+        <form action="home" method="POST">
+        <div class="button"><input type = "submit" value="Return"></div>
+        </form>
+	</div>
+</body>
+</html>
